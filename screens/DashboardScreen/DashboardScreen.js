@@ -24,7 +24,7 @@ export default function DashboardScreen({navigation}) {
               <View style = {styles.Men}>
                 <Image  style = {styles.ImageMen} 
                 source={require('../../assets/col2.2.jpeg')}/>
-                 <TouchableOpacity style= {styles.MensButton}  onPress={ () => navigation.navigate('MenScreen')}>
+                 <TouchableOpacity style= {styles.MensButton}  onPress={ () => navigation.navigate('MensApparel')}>
                  <Text style = {styles.MenText}>Mens</Text>
               </TouchableOpacity>
               </View>
