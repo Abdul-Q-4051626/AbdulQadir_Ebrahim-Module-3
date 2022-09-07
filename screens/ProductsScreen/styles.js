@@ -126,11 +126,12 @@ export default StyleSheet.create({
     MensProductsTagText:{
         color: '#2a2a2a',
         fontWeight:'bold',
-        fontSize: 12,
+        fontSize: 10
     },
     MensProductsOldPrice:{
         textDecorationLine:'line-through',
         color: '#a1a1a1',
+            fontSize: 10,
     },
     MensProductsPrice:{
         flexDirection:'row',
@@ -139,7 +140,7 @@ export default StyleSheet.create({
     MensProductsNewPrice:{
         color:'#2a2a2a',
         fontWeight:'bold',
-        fontSize: 12,
+        fontSize: 10,
     },
     ScrollView:{
         marginHorizontal: 50,
