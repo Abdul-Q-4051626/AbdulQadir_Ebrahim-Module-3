@@ -15,8 +15,8 @@ const Stack = createStackNavigator();
       <Stack.Navigator>
             <Stack.Screen name="LoginScreen" component={LoginScreen} options={{headerShown: false}}/>
             <Stack.Screen name="RegistrationScreen" component={RegistrationScreen} options={{headerShown: false}}/>
-            <Stack.Screen name="MensApparel" component={MensApparel} />
-            <Stack.Screen name="DashboardScreen" component={DashboardScreen} />
+            <Stack.Screen name="MensApparel" component={MensApparel}  options={{title: "Mens Products"}}/>
+            <Stack.Screen name="DashboardScreen" component={DashboardScreen} options={{title: "Dashboard"}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
